@@ -270,13 +270,13 @@ void menu()
         case 4:
             cout << "Enter position to delete from middle: ";
             cin >> position;
-            // list.deleteFromMiddle(position); // Delete from middle
+            list.deleteFromMiddle(position); // Delete from middle
             break;
         case 5:
             list.reverse(); // Reverse the linked list
             break;
         case 6:
-            // list.deleteAllEvenNodes(); // Delete all even nodes
+            list.deleteAllEvenNodes(); // Delete all even nodes
             break;
         case 7:
             list.deleteAllOddNodes(); // Delete all odd nodes
